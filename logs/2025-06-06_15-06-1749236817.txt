@@ -1,0 +1,35 @@
+2025-06-06 15:06:57,168 - INFO - Reading in "E Comm" sheet from "data/churn_data_2025.xlsx"...
+2025-06-06 15:06:58,568 - INFO - Number of rows and columns: (5203, 19)
+2025-06-06 15:06:58,569 - INFO - Class counts: {0: 4329, 1: 874}
+2025-06-06 15:06:58,572 - INFO - Numerical columns: ['Churn', 'Tenure', 'CityTier', 'WarehouseToHome', 'HourSpendOnApp', 'NumberOfDeviceRegistered', 'SatisfactionScore', 'NumberOfAddress', 'Complain', 'OrderAmountHikeFromlastQuarter', 'CouponUsed', 'OrderCount', 'DaySinceLastOrder', 'CashbackAmount']
+2025-06-06 15:06:58,574 - INFO - Categorical columns: ['PreferredLoginDevice', 'PaymentMode', 'Gender', 'OrderCat', 'MaritalStatus']
+2025-06-06 15:06:59,155 - INFO - Customers with the median Tenure of 1.0 are likely to churn.
+2025-06-06 15:06:59,155 - INFO - Customers with the median Tenure of 10.0 are likely to stay.
+2025-06-06 15:06:59,155 - INFO - Customers with the median CityTier of 1.0 are likely to churn.
+2025-06-06 15:06:59,155 - INFO - Customers with the median CityTier of 1.0 are likely to stay.
+2025-06-06 15:06:59,156 - INFO - Customers with the median WarehouseToHome of 15.0 are likely to churn.
+2025-06-06 15:06:59,156 - INFO - Customers with the median WarehouseToHome of 13.0 are likely to stay.
+2025-06-06 15:06:59,156 - INFO - Customers with the median HourSpendOnApp of 3.0 are likely to churn.
+2025-06-06 15:06:59,156 - INFO - Customers with the median HourSpendOnApp of 3.0 are likely to stay.
+2025-06-06 15:06:59,157 - INFO - Customers with the median NumberOfDeviceRegistered of 4.0 are likely to churn.
+2025-06-06 15:06:59,157 - INFO - Customers with the median NumberOfDeviceRegistered of 4.0 are likely to stay.
+2025-06-06 15:06:59,157 - INFO - Customers with the median SatisfactionScore of 3.0 are likely to churn.
+2025-06-06 15:06:59,157 - INFO - Customers with the median SatisfactionScore of 3.0 are likely to stay.
+2025-06-06 15:06:59,157 - INFO - Customers with the median NumberOfAddress of 3.0 are likely to churn.
+2025-06-06 15:06:59,158 - INFO - Customers with the median NumberOfAddress of 3.0 are likely to stay.
+2025-06-06 15:06:59,158 - INFO - Customers with the median Complain of 1.0 are likely to churn.
+2025-06-06 15:06:59,158 - INFO - Customers with the median Complain of 0.0 are likely to stay.
+2025-06-06 15:06:59,158 - INFO - Customers with the median OrderAmountHikeFromlastQuarter of 14.0 are likely to churn.
+2025-06-06 15:06:59,158 - INFO - Customers with the median OrderAmountHikeFromlastQuarter of 15.0 are likely to stay.
+2025-06-06 15:06:59,159 - INFO - Customers with the median CouponUsed of 1.0 are likely to churn.
+2025-06-06 15:06:59,159 - INFO - Customers with the median CouponUsed of 1.0 are likely to stay.
+2025-06-06 15:06:59,159 - INFO - Customers with the median OrderCount of 2.0 are likely to churn.
+2025-06-06 15:06:59,159 - INFO - Customers with the median OrderCount of 2.0 are likely to stay.
+2025-06-06 15:06:59,160 - INFO - Customers with the median DaySinceLastOrder of 2.0 are likely to churn.
+2025-06-06 15:06:59,160 - INFO - Customers with the median DaySinceLastOrder of 4.0 are likely to stay.
+2025-06-06 15:06:59,160 - INFO - Customers with the median CashbackAmount of 150.53500000000003 are likely to churn.
+2025-06-06 15:06:59,160 - INFO - Customers with the median CashbackAmount of 166.63 are likely to stay.
+2025-06-06 15:07:01,844 - INFO - TN, FP, FN, TP: 1288, 11, 62, 200
+2025-06-06 15:07:01,845 - INFO - Classification method: RandomForestClassifier
+2025-06-06 15:07:01,845 - INFO - Classification accuracy: 0.9532351057014734
+2025-06-06 15:07:01,847 - INFO - f1-score: 0.8456659619450317
