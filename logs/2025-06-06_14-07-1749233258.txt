@@ -1,9 +1,0 @@
-2025-06-06 14:07:38,728 - INFO - Reading in "E Comm" sheet from "data/churn_data_2025.xlsx"...
-2025-06-06 14:07:41,421 - INFO - Number of rows and columns: (5203, 19)
-2025-06-06 14:07:41,423 - INFO - Class counts: {0: 4329, 1: 874}
-2025-06-06 14:07:41,426 - INFO - Numerical columns: ['Churn', 'Tenure', 'CityTier', 'WarehouseToHome', 'HourSpendOnApp', 'NumberOfDeviceRegistered', 'SatisfactionScore', 'NumberOfAddress', 'Complain', 'OrderAmountHikeFromlastQuarter', 'CouponUsed', 'OrderCount', 'DaySinceLastOrder', 'CashbackAmount']
-2025-06-06 14:07:41,429 - INFO - Categorical columns: ['PreferredLoginDevice', 'PaymentMode', 'Gender', 'OrderCat', 'MaritalStatus']
-2025-06-06 14:07:46,096 - INFO - TN, FP, FN, TP: 1288, 11, 62, 200
-2025-06-06 14:07:46,096 - INFO - Classification method: RandomForestClassifier
-2025-06-06 14:07:46,097 - INFO - Classification accuracy: 0.9532351057014734
-2025-06-06 14:07:46,099 - INFO - f1-score: 0.8456659619450317

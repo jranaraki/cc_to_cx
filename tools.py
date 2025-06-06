@@ -265,6 +265,25 @@ class Utils:
         plt.savefig(os.path.join(self.plots_path, "shap_values.png"), dpi=300)
 
 
+    def insights(self, df):
+        """
+        Provide insights regarding averge feature values to the outcome
+        :param df: Input dataframe
+        :return:
+        """
+        for col in df.columns:
+            if col == "Churn":
+                continue
+            if col in self.numerical_columns:
+                average_metric = df.groupby("Churn")[col].median()
+                self.logger.info(f"Customers with the median {col} of {average_metric[1]} are likely to churn.")
+                self.logger.info(f"Customers with the median {col} of {average_metric[0]} are likely to stay.")
+            # elif col in self.categorical_columns:
+            #     average_metric = df.groupby("Churn")[col].transform(mode())
+            #     self.logger.info(f"Customers with the average {col} of {average_metric[1]} are likely to churn.")
+            #     self.logger.info(f"Customers with the average {col} of {average_metric[0]} are likely to stay.")
+
+
     def split(self, df, target_column="Churn", test_size=0.3):
         """
         Split data into train and test dataset

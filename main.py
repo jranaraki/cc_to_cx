@@ -25,7 +25,7 @@ def main():
     # -------------------------------------------------------------------------------
     # Analysis from CX perspectives
     # -------------------------------------------------------------------------------
-    # X_train, X_test, y_train, y_test
+    tool.insights(preprocess_data)
     df = tool.get_prediction_data()
     tool.split(df, target_column="Churn", test_size=0.3)
     split_data = tool.get_split_data()
