@@ -9,7 +9,7 @@ def main():
     tool = tools.Utils()
     tool.set_seed(seed=2025)
     tool.init_logger()
-    method = xgb.XGBClassifier #RandomForestClassifier #xgb.XGBClassifier
+    method = xgb.XGBClassifier
     imputation_flag = False
     imputation_policy = "remove"
 
